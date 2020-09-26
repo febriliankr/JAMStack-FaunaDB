@@ -1,6 +1,3 @@
-const axios = require("axios");
-require("dotenv").config();
-
 const { GET_LINKS } = require("./utils/linkQueries.js");
 const sendQuery = require("./utils/sendQuery");
 
