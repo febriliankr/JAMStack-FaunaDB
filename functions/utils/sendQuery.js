@@ -11,14 +11,14 @@ module.exports = async (query, variables) => {
       Authorization: `Bearer ${process.env.FAUNA_SECRET_KEY}`,
     },
     data: {
-        query,
-        variables,
+      query,
+      variables,
     },
   });
 
   if (errors) {
-    console.error(error);
-    throw new Error("Something went wrong sendQuery.js");
+    console.error(errors);
+    throw new Error(errors, "Something went wrong sendQuery.js");
   }
 
   return data;
