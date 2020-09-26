@@ -1,0 +1,56 @@
+@import "./_variables";
+@import "./_button";
+
+* {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600 !important;
+  color: #0d2f81;
+}
+
+body {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 24px !important;
+  font-weight: 300 !important;
+  color: #000000 !important;
+  background-color: #ffe7aa !important;
+}
+
+.container {
+  width: calc(100% - 80px);
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  h1 {
+    margin-top: 100px;
+  }
+}
+
+.linkCard {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  .title {
+
+  }
+  .body {
+      p{
+          font-size: 15px;
+      }
+      
+  }
+  .footer {
+  }
+}
