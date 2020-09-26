@@ -11,9 +11,15 @@ the server will start in http://localhost:8888
 
 ## Current Problem ⚠
 
+### Too tired to finish the add link
+
+Finish the LinkForm component to enable adding links through POST request to /api/createLink
+
+### Postman Agent (25/09/2020)
+
 Postman Agent can't start in my Windows 10 machine. Tomorrow I will restart the PC and then try to start Postman Agent again.
 
-Update (29/09/2020) I can send post request to localhost using Insomnia.REST. Thanks to @azzamsa from the Coding discord server.
+Update (26/09/2020) I can send post request to localhost using Insomnia.REST. Thanks to @azzamsa from the Coding discord server.
 
 ## FaunaDB
 

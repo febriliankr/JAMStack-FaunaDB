@@ -3,15 +3,15 @@ import React from "react";
 export default function LinkCard({ link, refreshLinks }) {
 
   const archiveLink = async () => {
-      
-    console.log('archived: ', link)
+    
     link.archived = true;
+    console.log("archived: ", link);
     try {
       await fetch("/api/updateLink", {
         method: "PUT",
-        body: JSON.stringify({ link }),
+        body: JSON.stringify(link),
       });
-      console.log('archived: ', link)
+      console.log("archived: ", link);
       refreshLinks();
     } catch (error) {
       console.error("error :", error);
@@ -39,8 +39,8 @@ export default function LinkCard({ link, refreshLinks }) {
         <p>{link.description}</p>
       </div>
       <div className="footer">
-        <button oncClick={archiveLink}>ARCHIVE</button>
-        <button oncClick={deleteLink}>DELETE</button>
+        <button onClick={archiveLink}>ARCHIVE</button>
+        <button onClick={deleteLink}>DELETE</button>
       </div>
     </div>
   );

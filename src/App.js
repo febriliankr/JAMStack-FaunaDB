@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import LinkForm from "./components/LinkForm";
 import LinkList from "./components/LinkList";
 
 //grab all the links
@@ -26,8 +27,10 @@ function App() {
   return (
     <div className="container">
       <h1>List of Links</h1>
+      <LinkForm/>
       <p>These are all the links that I frequently use.</p>
       <LinkList links={links} refreshLinks={loadLinks}/>
+      
     </div>
   );
 }
