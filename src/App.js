@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="container">
       <h1>List of Links</h1>
-      <LinkForm/>
+      <LinkForm refreshLinks={loadLinks}/>
       <p>These are all the links that I frequently use.</p>
       <LinkList links={links} refreshLinks={loadLinks}/>
       

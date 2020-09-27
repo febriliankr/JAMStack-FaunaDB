@@ -19,6 +19,7 @@ export default function LinkForm({ refreshLinks }) {
         method: "POST",
         body: JSON.stringify(body),
       });
+      console.log('res', res)
       resetForm();
       refreshLinks();
     } catch (error) {
@@ -27,7 +28,7 @@ export default function LinkForm({ refreshLinks }) {
   };
 
   return (
-    <div>
+    <div className="linkform__container">
       <h2>Add Link</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
