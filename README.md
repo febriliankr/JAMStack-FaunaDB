@@ -7,13 +7,13 @@ Using React, FaunaDB, GraphQL, and Netlify Functions
 `netlify dev` to start local server
 the server will start in http://localhost:8888
 
-/.netlify/functions/getLinks or /api/getLinks
+/.netlify/functions/getLinks or /.netlify/functions/getLinks
 
 ## Current Problem ⚠
 
 ### Too tired to finish the add link
 
-Finish the LinkForm component to enable adding links through POST request to /api/createLink
+Finish the LinkForm component to enable adding links through POST request to /.netlify/functions/createLink
 
 ### Postman Agent (25/09/2020)
 
