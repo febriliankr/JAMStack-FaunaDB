@@ -15,6 +15,8 @@ the server will start in http://localhost:8888
 
 Finish the LinkForm component to enable adding links through POST request to /.netlify/functions/createLink
 
+Update (27/09/2020) completed all functionality. Also added loading animation from react-loadingg library.
+
 ### Postman Agent (25/09/2020)
 
 Postman Agent can't start in my Windows 10 machine. Tomorrow I will restart the PC and then try to start Postman Agent again.
