@@ -1,13 +1,15 @@
-# JAM Stack Project
+# JAM Stack Project 🍓
 
 Using React, FaunaDB, GraphQL, and Netlify Functions
+
+## Demo
+
+Demo here https://faunajamstack.netlify.app/
 
 ## Working with Netlify Functions
 
 `netlify dev` to start local server
 the server will start in http://localhost:8888
-
-/.netlify/functions/getLinks or /.netlify/functions/getLinks
 
 ## Current Problem ⚠
 
