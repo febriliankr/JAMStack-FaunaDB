@@ -26,3 +26,8 @@ Update (26/09/2020) I can send post request to localhost using Insomnia.REST. Th
 ## FaunaDB
 
 fnAD2jo7ymACEz8IOhT4gCOG84Usg8CEBvPatSZ9
+
+## How to Deploy to Netlify
+
+Just deploy, set build command to `npm run build` and publish directory to `build`
+add environment variables, example: the FAUNADB Key
